@@ -5,14 +5,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "CodeLens (Launch) - MinDistance",
+      "request": "launch",
+      "mainClass": "MinDistance",
+      "projectName": "LeetCodeDaily_3a11000e"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "gameOfLife-js",
-      "program": "${file}",
+      "program": "${file}"
     },
     {
       "type": "java",
       "name": "gameOfLife-java",
+      "request": "launch",
+      "mainClass": "Solution"
+    },
+    {
+      "type": "java",
+      "name": "minDistance-java",
       "request": "launch",
       "mainClass": "Solution"
     }
